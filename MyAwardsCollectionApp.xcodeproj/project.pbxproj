@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		28CCC026284922FE00E8A9CE /* MyAwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC025284922FE00E8A9CE /* MyAwardsCollectionAppApp.swift */; };
-		28CCC028284922FE00E8A9CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC027284922FE00E8A9CE /* ContentView.swift */; };
+		28CCC028284922FE00E8A9CE /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC027284922FE00E8A9CE /* StarterView.swift */; };
 		28CCC02A2849230000E8A9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CCC0292849230000E8A9CE /* Assets.xcassets */; };
 		28CCC02D2849230000E8A9CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CCC02C2849230000E8A9CE /* Preview Assets.xcassets */; };
+		28CCC0372849234B00E8A9CE /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC0362849234B00E8A9CE /* CustomGridView.swift */; };
+		28CCC0392849236300E8A9CE /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC0382849236300E8A9CE /* VerticalGridView.swift */; };
+		28CCC03B2849237D00E8A9CE /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC03A2849237D00E8A9CE /* HorizontalGridView.swift */; };
+		28CCC03D284923AB00E8A9CE /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC03C284923AB00E8A9CE /* GradientRectangles.swift */; };
+		28CCC03F284923C100E8A9CE /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC03E284923C100E8A9CE /* PathView.swift */; };
+		28CCC041284923D700E8A9CE /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC040284923D700E8A9CE /* CurvesView.swift */; };
+		28CCC043284923FC00E8A9CE /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC042284923FC00E8A9CE /* HypocycloidView.swift */; };
+		28CCC0452849241600E8A9CE /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC0442849241600E8A9CE /* Award.swift */; };
+		28CCC0472849249800E8A9CE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC0462849249800E8A9CE /* MainView.swift */; };
+		28CCC049284924AE00E8A9CE /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC048284924AE00E8A9CE /* CartRacingView.swift */; };
+		28CCC04B284924CB00E8A9CE /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CCC04A284924CB00E8A9CE /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28CCC022284922FE00E8A9CE /* MyAwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CCC025284922FE00E8A9CE /* MyAwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwardsCollectionAppApp.swift; sourceTree = "<group>"; };
-		28CCC027284922FE00E8A9CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28CCC027284922FE00E8A9CE /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		28CCC0292849230000E8A9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28CCC02C2849230000E8A9CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28CCC0362849234B00E8A9CE /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		28CCC0382849236300E8A9CE /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		28CCC03A2849237D00E8A9CE /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		28CCC03C284923AB00E8A9CE /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		28CCC03E284923C100E8A9CE /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		28CCC040284923D700E8A9CE /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		28CCC042284923FC00E8A9CE /* HypocycloidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
+		28CCC0442849241600E8A9CE /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		28CCC0462849249800E8A9CE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		28CCC048284924AE00E8A9CE /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		28CCC04A284924CB00E8A9CE /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,13 @@
 			isa = PBXGroup;
 			children = (
 				28CCC025284922FE00E8A9CE /* MyAwardsCollectionAppApp.swift */,
-				28CCC027284922FE00E8A9CE /* ContentView.swift */,
+				28CCC027284922FE00E8A9CE /* StarterView.swift */,
+				28CCC0462849249800E8A9CE /* MainView.swift */,
+				28CCC048284924AE00E8A9CE /* CartRacingView.swift */,
+				28CCC04A284924CB00E8A9CE /* AwardsView.swift */,
+				28CCC0332849232700E8A9CE /* Models */,
+				28CCC0342849232D00E8A9CE /* Awards */,
+				28CCC0352849233700E8A9CE /* Grids */,
 				28CCC0292849230000E8A9CE /* Assets.xcassets */,
 				28CCC02B2849230000E8A9CE /* Preview Content */,
 			);
@@ -65,6 +93,35 @@
 				28CCC02C2849230000E8A9CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28CCC0332849232700E8A9CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28CCC0442849241600E8A9CE /* Award.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28CCC0342849232D00E8A9CE /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				28CCC03C284923AB00E8A9CE /* GradientRectangles.swift */,
+				28CCC03E284923C100E8A9CE /* PathView.swift */,
+				28CCC040284923D700E8A9CE /* CurvesView.swift */,
+				28CCC042284923FC00E8A9CE /* HypocycloidView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		28CCC0352849233700E8A9CE /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				28CCC0362849234B00E8A9CE /* CustomGridView.swift */,
+				28CCC0382849236300E8A9CE /* VerticalGridView.swift */,
+				28CCC03A2849237D00E8A9CE /* HorizontalGridView.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CCC028284922FE00E8A9CE /* ContentView.swift in Sources */,
+				28CCC0392849236300E8A9CE /* VerticalGridView.swift in Sources */,
+				28CCC0372849234B00E8A9CE /* CustomGridView.swift in Sources */,
+				28CCC03B2849237D00E8A9CE /* HorizontalGridView.swift in Sources */,
+				28CCC0452849241600E8A9CE /* Award.swift in Sources */,
+				28CCC03F284923C100E8A9CE /* PathView.swift in Sources */,
+				28CCC028284922FE00E8A9CE /* StarterView.swift in Sources */,
 				28CCC026284922FE00E8A9CE /* MyAwardsCollectionAppApp.swift in Sources */,
+				28CCC0472849249800E8A9CE /* MainView.swift in Sources */,
+				28CCC049284924AE00E8A9CE /* CartRacingView.swift in Sources */,
+				28CCC043284923FC00E8A9CE /* HypocycloidView.swift in Sources */,
+				28CCC041284923D700E8A9CE /* CurvesView.swift in Sources */,
+				28CCC03D284923AB00E8A9CE /* GradientRectangles.swift in Sources */,
+				28CCC04B284924CB00E8A9CE /* AwardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
