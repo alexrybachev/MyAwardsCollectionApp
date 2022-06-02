@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct CurvesView: View {
+    
     var body: some View {
         GeometryReader { geometry in
+            
             let width = geometry.size.width
             let height = geometry.size.height
             let size = min(width, height)

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GradientRectangles: View {
+    
     var body: some View {
         GeometryReader { geometry in
             let width = geometry.size.width

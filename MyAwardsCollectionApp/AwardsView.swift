@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/*
+
 struct AwardsView: View {
     let awards = Award.getAwards().filter { $0.awarded }
     
@@ -23,13 +23,15 @@ struct AwardsView: View {
         }
     }
 }
-*/
 
+/*
 struct AwardsView: View {
+    
     let awards = Award.getAwards().filter { $0.awarded }
     let columns = [
         GridItem(.adaptive(minimum: 160, maximum: 200))
     ]
+    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -46,6 +48,7 @@ struct AwardsView: View {
         }
     }
 }
+ */
 
 struct AwardsView_Previews: PreviewProvider {
     static var previews: some View {

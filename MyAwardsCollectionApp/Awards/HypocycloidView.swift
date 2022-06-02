@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HypocycloidView: View {
+    
     @State private var outerRadius = 4.176737
     @State private var innerRadius = 1.76
     

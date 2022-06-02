@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Award {
+    
     let awardView: AnyView
     let title: String
     let awarded: Bool
